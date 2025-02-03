@@ -1,5 +1,5 @@
 [project]
-name = "crypto-cloud-sdk"
+name = "cryptocloud-sdk"
 version = "0.1.0"
 description = ""
 authors = [
