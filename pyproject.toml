@@ -1,0 +1,26 @@
+[project]
+name = "crypto-cloud-sdk"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Никита Прожога", email = "fofmow@gmail.com" }
+]
+urls = { "homepage" = "https://github.com/fofmow/crypto-cloud-sdk", "repository" = "https://github.com/fofmow/crypto-cloud-sdk" }
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+keywords = ["async", "crypto cloud", "python", "sdk"]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp (>=3.11.11,<4.0.0)",
+    "pydantic (>=2.10.5,<3.0.0)"
+]
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
