@@ -1,14 +1,16 @@
-# Crypto Cloud SDK — простая асинхронная библиотека для работы с API [CryptoCloud](https://cryptocloud.plus/)
+## Crypto Cloud SDK — простая асинхронная библиотека для работы с API [CryptoCloud](https://cryptocloud.plus/)
+
+***
 
 ### 💡 Регистрация мерчанта и получение API ключей [описаны в документации](https://docs.cryptocloud.plus/ru/start/get-api-keys)
 
-###
+***
 
-## Установка библиотеки / Install
+### Установка библиотеки / Install
 
 `pip install cryptocloud-sdk`
 
-####
+***
 
 ## Примеры использования / Use cases
 
@@ -64,10 +66,10 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-####
-
 ## [Want to donate? Look at real app used CryptoCloud 😎](https://t.me/todonators_bot)
 
-##
+*** 
+***
+***
 
 
