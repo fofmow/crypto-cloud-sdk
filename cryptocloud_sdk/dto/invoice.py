@@ -16,8 +16,8 @@ class _BasePostInvoice(BaseModel):
     amount_usd: confloat(gt=0)
     fee: confloat(gt=0)
     fee_usd: confloat(gt=0)
-    service_fee: confloat(gt=0)
-    service_fee_usd: confloat(gt=0)
+    service_fee: confloat(ge=0)
+    service_fee_usd: confloat(ge=0)
     status: str
     currency: InvoiceCurrency
     project: Project
